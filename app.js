@@ -49,3 +49,14 @@ app.get('/delete', function(req,res){
 });
 
 app.listen(3333);
+
+
+// Adresse IP des utilisateurs
+//----------------------------
+
+// Ludovic
+var ipUser_1 = 132.213.164.13;
+// Amine
+var ipUser_2 = 132.213.160.89;
+// Nicolas
+var ipUser_3 = 132.213.164.166;
