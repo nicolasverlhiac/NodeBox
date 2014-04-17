@@ -1,0 +1,15 @@
+{
+  "name": "devoir-2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "jade": "*",
+    "connect-multiparty":"*",
+    "request":"*",
+    "nodemon": "*"
+  }
+}

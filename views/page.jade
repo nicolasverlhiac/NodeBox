@@ -1,0 +1,49 @@
+doctype
+html(lang="fr")
+  head
+    meta(charset="utf-8")
+    title Démo (photos)
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    h1.header Page exemple (démo)
+    ul
+      li
+        a(href='/photos')
+          | Voir les photos
+      li
+        a(href='/post')
+          | Déposer une photo
+      li
+        | Télécharger le fichier 
+        a(href='demo.zip') demo.zip
+        |  avec le code source
+    .notes
+     p
+      | Voici un exemple d'un simple serveur web (app.js) permettant le 
+      | stockage de photos.
+     P
+      | Pour le lancer, faire : 
+      code npm install
+      | , puis, 
+      code npm start
+      | .
+     p
+      | Le serveur s'exécute sous port 3333, c.-à-d., à l'adresse 
+      a(href="http://localhost:3333/") ici
+      | .
+    .notes
+     p
+      | Il y a aussi un simple programme node
+      | "getFile.js".
+     p
+      | Pour l'exécuter faire : 
+      code node getFile.js
+      | . Ce programme fait deux actions:
+     ol
+        li
+         | ll dépose un fichier local "fleurs.jpg" dans le serveur
+         | (le serveur doit être en marche!); puis
+        li
+         | il re-télécharge le fichier du serveur pour l'enregistrer dans
+         | un fichier local "COPIE.JPG".
+     
